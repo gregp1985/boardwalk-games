@@ -34,6 +34,9 @@ h3 {
 .row {
     border: 2px solid black;
 }
+.col-2,
+.col-6,
+.col-10,
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
