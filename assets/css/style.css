@@ -103,7 +103,11 @@ h2 {
 #fav-games .card {
     border: none;
 }
-
+/* Align reserve game button */
+.align-button-right {
+    display: flex;
+    justify-content: end;
+}
 /* Footer/contact */
 #contact {
     background-color: var(--primary-color);
@@ -140,7 +144,12 @@ h2 {
     #services .card-body {
         min-height: 191px;
     }
+    /* restric width of reserve game form */
+    .reservegame {
+        max-width: 66%;
 }
+}
+
 /* Large devices, min-width 992px */
 @media screen and (min-width:992px) {
     /* make all service cards the same size  */
