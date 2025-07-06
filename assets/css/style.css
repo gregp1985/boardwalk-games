@@ -82,6 +82,16 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+/* Student discount */
+#student {
+    background-color: var(--highlight-color);
+    color: white;
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+}
 /* Games section  */
 #new-games .card,
 #fav-games .card {
