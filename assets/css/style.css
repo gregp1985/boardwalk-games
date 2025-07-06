@@ -88,12 +88,16 @@ h2 {
     background-color: var(--highlight-color);
     color: white;
     margin: auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     padding: 10px;
     text-align: center;
 }
 .center-button {
     margin: 20px auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     padding: 10px;
     text-align: center; 
@@ -105,8 +109,12 @@ h2 {
 }
 /* Align reserve game button */
 .align-button-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
 }
 /* Footer/contact */
 #contact {
@@ -128,6 +136,8 @@ h2 {
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 #contact .social-links i:hover {
@@ -171,16 +181,3 @@ h2 {
         min-height: 195px;
     }
 }
-/* grid visualisation css for test */
-
-/* .container,
-.row {
-    border: 2px solid black;
-}
-.col-2,
-.col-6,
-.col-10,
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
