@@ -92,6 +92,12 @@ h2 {
     padding: 10px;
     text-align: center;
 }
+.center-button {
+    margin: 20px auto;
+    width: fit-content;
+    padding: 10px;
+    text-align: center; 
+}
 /* Games section  */
 #new-games .card,
 #fav-games .card {
